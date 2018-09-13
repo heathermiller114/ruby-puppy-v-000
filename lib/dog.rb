@@ -14,8 +14,8 @@ class Dog
     counter = 0
     @@all.each do |name|
       puts @@all[counter]
-      counter += 1
     end
+    counter += 1
   end
 
   
