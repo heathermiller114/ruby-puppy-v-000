@@ -13,7 +13,7 @@ class Dog
   def self.all
     counter = 0
     @@all.each do |name|
-      return @@all[counter]
+      puts @@all[counter]
     end
     counter += 1
   end
