@@ -11,11 +11,9 @@ class Dog
   end
   
   def self.all
-    counter = 0
     @@all.each do |name|
       puts "#{name}"
     end
-    counter += 1
   end
 
   
